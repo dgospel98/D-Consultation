@@ -1,0 +1,454 @@
+header {
+    height: 150px;
+    /* background-color: #937272; */
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: sough, Ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.box1 {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    border: 4px solid white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.continuation {
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    border-radius: 75px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    margin-top: 50px;
+    height: 500px;
+    /* border: 1px solid black; */
+    font-family: sough, Ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main p {
+    color: #6B6461;
+    font-size: 13px;
+}
+
+.designs {
+    height: 350px;
+    /* border: 1px solid black; */
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card1 {
+    height: 100%;
+    width: 350px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    position: relative;
+    background-color: #8441E0;
+}
+
+.card1 p {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    margin: 0;
+    font-size: 20px;
+    color: white
+}
+
+.card2 {
+    height: 100%;
+    width: 350px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card201 {
+    height: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 20px;
+}
+
+.card2-1 {
+    height: 100%;
+    width: 175px;
+    background-color: #FFA55A;
+    border-radius: 15px;
+    position: relative;
+}
+
+.card2-1 p {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    margin: 0;
+    font-size: 20px;
+    color: white
+}
+
+.card2-2 {
+    height: 100%;
+    width: 175px;
+    background-color: #FF9595;
+    border-radius: 15px;
+    position: relative;
+}
+
+.card2-2 p {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    margin: 0;
+    font-size: 20px;
+    color: white
+}
+
+.card202 {
+    height: 50%;
+    border-radius: 15px;
+    background-color: #FF6B5C;
+    position: relative;
+}
+
+.card202 p {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    margin: 0;
+    font-size: 20px;
+    color: white
+}
+
+.card3 {
+    height: 100%;
+    width: 350px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card301 {
+    height: 50%;
+    border-radius: 15px;
+    background-color: #22C9BC;
+    position: relative;
+}
+
+.card301 p {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    margin: 0;
+    font-size: 20px;
+    color: white
+}
+
+.card302 {
+    height: 50%;
+    border-radius: 15px;
+    background-color: #5C1049;
+    position: relative;
+}
+
+.card302 p {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    margin: 0;
+    font-size: 20px;
+    color: white
+}
+
+.amy {
+    height: 450px;
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.amy1 {
+    height: 90%;
+    width: 40%;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    margin-left: 20px;
+    background-color: aquamarine;
+}
+
+.amy2 {
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid black; */
+    font-family: sough, Ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 50px;
+}
+
+.amy2 h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.amy2p1 {
+    font-size: 15px;
+    color: #4f4c4a;
+    font-weight: 30;
+}
+
+.amy2p2 {
+    height: 50px;
+    width: 200px;
+    background-color: #FF6B5B;
+    border-radius: 75px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black;  */
+    margin-bottom: 50px;
+    margin-top: 20px;
+    }
+    .work h1{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 400;
+        font-family: sough, Ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    }
+.mywork {
+    height: auto;
+    /* border: 1px soid black; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px;
+}
+
+
+.mywork1 {
+    height: 300px;
+    width:100%;
+    background-color: darkblue;
+    width: 100%;
+    border-radius: 20px ;
+}
+
+.mywork2 {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(107, 107, 30);
+    border-radius: 20px ;
+}
+
+.mywork3 {
+    height: 300px;
+    width: 100%;
+    background-color: gray;
+    border-radius: 20px ;
+}
+.arrows{
+    height: 50px;
+    width: 100%;
+    /* background-color: #5C1049; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.arr1{
+    height:100%;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.material-symbols-outlined.back{
+    color: white;
+    /* font-size: 30px; */
+}
+
+.call{
+    height: 350px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.BAC{
+    height:75%;
+    width: 66%;
+    background-color: black;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bac1{
+    color: white;
+    font-family: sough, Ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+
+}
+.bac1 h1{
+    font-size: 30px;
+    font-weight: 200;
+    margin: 0;
+}
+.bac1 p{
+    font-size: 15px;
+    font-weight: 50;
+    color: white;
+}
+.bac2{
+    height: 40px;
+    width: 200px;
+    background-color: #FF6B5B;
+    border-radius: 75px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.FC{
+    height: 25%;
+    width: 70%;
+    /* background-color: #937272; */
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: sough, Ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+
+}
+.box2 {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.circle2 {
+    border: 4px solid white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.continuation2 {
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    border-radius: 75px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 712px) {
+    header {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .designs {
+        width: 90%;
+    }
+    .card1, .card2, .card3 {
+        width: 100%;      /* was 350px */
+    }
+    .card2-1, .card2-2 {
+        width: 100%;      /* was 175px */
+    }
+
+    .amy {
+        width: 90%;
+        height: auto;
+        gap: 20px;
+    }
+    .amy1 {
+        width: 220px;
+        height: 220px;    /* keeps the circle round */
+        margin-left: 0;
+    }
+    .amy2 {
+        width: 55%;
+        margin-top: 0;
+    }
+    .amy2 h1 {
+        font-size: 28px;
+    }
+
+    .mywork {
+        gap: 15px;
+    }
+    .mywork1, .mywork2, .mywork3 {
+        height: 200px;
+    }
+
+    .BAC {
+        width: 90%;
+        padding-left: 20px;
+    }
+    .bac2 {
+        margin-right: 20px;
+    }
+    .FC {
+        width: 90%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
